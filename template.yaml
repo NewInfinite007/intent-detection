@@ -1,0 +1,104 @@
+greeting:
+  - utterance: good {time:datetime}
+    slots:
+      time:datetime:
+        - morning
+        - evening
+        - afternoon
+  - utterance: have a good {time:datetime}
+    slots:
+      time:datetime:
+        - day
+        - night
+info:
+  - utterance: it's {time:datetime}
+    slots:
+      time:datetime:
+        - morning
+        - evening
+        - afternoon
+  - utterance: what is the menu for {meal:mealtype}?
+    slots:
+      meal:mealtype:
+        - breakfast
+        - lunch
+        - dinner
+  - utterance: today's {time:datetime}
+    slots:
+      time:datetime:
+        - morning
+        - evening
+        - afternoon
+order:
+  - utterance: i want to schedule the order for tommorow {time:datetime}
+    slots:
+      time:datetime:
+        - morning
+        - evening
+        - afternoon
+  - utterance: i did not get the order delivered in the {time:datetime}
+    slots:
+      time:datetime:
+        - morning
+        - evening
+        - afternoon
+  - utterance: i want to order for {meal:mealtype}
+    slots:
+      meal:mealtype:
+        - breakfast
+        - lunch
+        - dinner
+feedback:
+  - utterance: i had a good {meal:mealtype}
+    slots:
+      meal:mealtype:
+        - breakfast
+        - lunch
+        - dinner
+
+  - utterance: i had a good {meal:mealtype} {time:datetime}
+    slots:
+      meal:mealtype:
+        - breakfast
+        - lunch
+        - dinner
+      time:datetime:
+        - yesterday
+        - last week
+
+  - utterance: i had a bad {meal:mealtype}
+    slots:
+      meal:mealtype:
+        - breakfast
+        - lunch
+        - dinner
+
+  - utterance: i had a bad {meal:mealtype} {time:datetime}
+    slots:
+      meal:mealtype:
+        - breakfast
+        - lunch
+        - dinner
+      time:datetime:
+        - yesterday
+        - last week
+booking:
+  - utterance: show me all flights for the {time:datetime}
+    slots:
+      time:datetime:
+        - morning
+        - evening
+        - afternoon
+  - utterance: show me my history for {time:datetime}
+    slots:
+      time:datetime:
+        - last week
+        - last month
+        - previous week
+
+  - utterance: will I be provided {meal:mealtype} on the flight ?
+    slots:
+      meal:mealtype:
+        - breakfast
+        - lunch
+        - dinner

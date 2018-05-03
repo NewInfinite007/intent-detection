@@ -1,0 +1,746 @@
+[
+    {
+        "entities": [
+            {
+                "end": 12, 
+                "entity": "time", 
+                "start": 5, 
+                "value": "morning"
+            }
+        ], 
+        "intent": "info", 
+        "text": "it's morning"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 12, 
+                "entity": "time", 
+                "start": 5, 
+                "value": "evening"
+            }
+        ], 
+        "intent": "info", 
+        "text": "it's evening"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 14, 
+                "entity": "time", 
+                "start": 5, 
+                "value": "afternoon"
+            }
+        ], 
+        "intent": "info", 
+        "text": "it's afternoon"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 30, 
+                "entity": "meal", 
+                "start": 21, 
+                "value": "breakfast"
+            }
+        ], 
+        "intent": "info", 
+        "text": "what is the menu for breakfast?"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 26, 
+                "entity": "meal", 
+                "start": 21, 
+                "value": "lunch"
+            }
+        ], 
+        "intent": "info", 
+        "text": "what is the menu for lunch?"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 27, 
+                "entity": "meal", 
+                "start": 21, 
+                "value": "dinner"
+            }
+        ], 
+        "intent": "info", 
+        "text": "what is the menu for dinner?"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 15, 
+                "entity": "time", 
+                "start": 8, 
+                "value": "morning"
+            }
+        ], 
+        "intent": "info", 
+        "text": "today's morning"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 15, 
+                "entity": "time", 
+                "start": 8, 
+                "value": "evening"
+            }
+        ], 
+        "intent": "info", 
+        "text": "today's evening"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 17, 
+                "entity": "time", 
+                "start": 8, 
+                "value": "afternoon"
+            }
+        ], 
+        "intent": "info", 
+        "text": "today's afternoon"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 49, 
+                "entity": "time", 
+                "start": 42, 
+                "value": "morning"
+            }
+        ], 
+        "intent": "order", 
+        "text": "i want to schedule the order for tommorow morning"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 49, 
+                "entity": "time", 
+                "start": 42, 
+                "value": "evening"
+            }
+        ], 
+        "intent": "order", 
+        "text": "i want to schedule the order for tommorow evening"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 51, 
+                "entity": "time", 
+                "start": 42, 
+                "value": "afternoon"
+            }
+        ], 
+        "intent": "order", 
+        "text": "i want to schedule the order for tommorow afternoon"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 48, 
+                "entity": "time", 
+                "start": 41, 
+                "value": "morning"
+            }
+        ], 
+        "intent": "order", 
+        "text": "i did not get the order delivered in the morning"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 48, 
+                "entity": "time", 
+                "start": 41, 
+                "value": "evening"
+            }
+        ], 
+        "intent": "order", 
+        "text": "i did not get the order delivered in the evening"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 50, 
+                "entity": "time", 
+                "start": 41, 
+                "value": "afternoon"
+            }
+        ], 
+        "intent": "order", 
+        "text": "i did not get the order delivered in the afternoon"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 29, 
+                "entity": "meal", 
+                "start": 20, 
+                "value": "breakfast"
+            }
+        ], 
+        "intent": "order", 
+        "text": "i want to order for breakfast"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 25, 
+                "entity": "meal", 
+                "start": 20, 
+                "value": "lunch"
+            }
+        ], 
+        "intent": "order", 
+        "text": "i want to order for lunch"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 26, 
+                "entity": "meal", 
+                "start": 20, 
+                "value": "dinner"
+            }
+        ], 
+        "intent": "order", 
+        "text": "i want to order for dinner"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 22, 
+                "entity": "meal", 
+                "start": 13, 
+                "value": "breakfast"
+            }
+        ], 
+        "intent": "feedback", 
+        "text": "i had a good breakfast"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 18, 
+                "entity": "meal", 
+                "start": 13, 
+                "value": "lunch"
+            }
+        ], 
+        "intent": "feedback", 
+        "text": "i had a good lunch"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 19, 
+                "entity": "meal", 
+                "start": 13, 
+                "value": "dinner"
+            }
+        ], 
+        "intent": "feedback", 
+        "text": "i had a good dinner"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 22, 
+                "entity": "meal", 
+                "start": 13, 
+                "value": "breakfast"
+            }
+        ], 
+        "intent": "feedback", 
+        "text": "i had a good breakfast yesterday"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 32, 
+                "entity": "time", 
+                "start": 23, 
+                "value": "yesterday"
+            }
+        ], 
+        "intent": "feedback", 
+        "text": "i had a good breakfast yesterday"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 22, 
+                "entity": "meal", 
+                "start": 13, 
+                "value": "breakfast"
+            }
+        ], 
+        "intent": "feedback", 
+        "text": "i had a good breakfast last week"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 32, 
+                "entity": "time", 
+                "start": 23, 
+                "value": "last week"
+            }
+        ], 
+        "intent": "feedback", 
+        "text": "i had a good breakfast last week"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 18, 
+                "entity": "meal", 
+                "start": 13, 
+                "value": "lunch"
+            }
+        ], 
+        "intent": "feedback", 
+        "text": "i had a good lunch yesterday"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 28, 
+                "entity": "time", 
+                "start": 19, 
+                "value": "yesterday"
+            }
+        ], 
+        "intent": "feedback", 
+        "text": "i had a good lunch yesterday"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 18, 
+                "entity": "meal", 
+                "start": 13, 
+                "value": "lunch"
+            }
+        ], 
+        "intent": "feedback", 
+        "text": "i had a good lunch last week"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 28, 
+                "entity": "time", 
+                "start": 19, 
+                "value": "last week"
+            }
+        ], 
+        "intent": "feedback", 
+        "text": "i had a good lunch last week"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 19, 
+                "entity": "meal", 
+                "start": 13, 
+                "value": "dinner"
+            }
+        ], 
+        "intent": "feedback", 
+        "text": "i had a good dinner yesterday"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 29, 
+                "entity": "time", 
+                "start": 20, 
+                "value": "yesterday"
+            }
+        ], 
+        "intent": "feedback", 
+        "text": "i had a good dinner yesterday"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 19, 
+                "entity": "meal", 
+                "start": 13, 
+                "value": "dinner"
+            }
+        ], 
+        "intent": "feedback", 
+        "text": "i had a good dinner last week"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 29, 
+                "entity": "time", 
+                "start": 20, 
+                "value": "last week"
+            }
+        ], 
+        "intent": "feedback", 
+        "text": "i had a good dinner last week"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 21, 
+                "entity": "meal", 
+                "start": 12, 
+                "value": "breakfast"
+            }
+        ], 
+        "intent": "feedback", 
+        "text": "i had a bad breakfast"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 17, 
+                "entity": "meal", 
+                "start": 12, 
+                "value": "lunch"
+            }
+        ], 
+        "intent": "feedback", 
+        "text": "i had a bad lunch"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 18, 
+                "entity": "meal", 
+                "start": 12, 
+                "value": "dinner"
+            }
+        ], 
+        "intent": "feedback", 
+        "text": "i had a bad dinner"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 21, 
+                "entity": "meal", 
+                "start": 12, 
+                "value": "breakfast"
+            }
+        ], 
+        "intent": "feedback", 
+        "text": "i had a bad breakfast yesterday"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 31, 
+                "entity": "time", 
+                "start": 22, 
+                "value": "yesterday"
+            }
+        ], 
+        "intent": "feedback", 
+        "text": "i had a bad breakfast yesterday"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 21, 
+                "entity": "meal", 
+                "start": 12, 
+                "value": "breakfast"
+            }
+        ], 
+        "intent": "feedback", 
+        "text": "i had a bad breakfast last week"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 31, 
+                "entity": "time", 
+                "start": 22, 
+                "value": "last week"
+            }
+        ], 
+        "intent": "feedback", 
+        "text": "i had a bad breakfast last week"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 17, 
+                "entity": "meal", 
+                "start": 12, 
+                "value": "lunch"
+            }
+        ], 
+        "intent": "feedback", 
+        "text": "i had a bad lunch yesterday"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 27, 
+                "entity": "time", 
+                "start": 18, 
+                "value": "yesterday"
+            }
+        ], 
+        "intent": "feedback", 
+        "text": "i had a bad lunch yesterday"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 17, 
+                "entity": "meal", 
+                "start": 12, 
+                "value": "lunch"
+            }
+        ], 
+        "intent": "feedback", 
+        "text": "i had a bad lunch last week"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 27, 
+                "entity": "time", 
+                "start": 18, 
+                "value": "last week"
+            }
+        ], 
+        "intent": "feedback", 
+        "text": "i had a bad lunch last week"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 18, 
+                "entity": "meal", 
+                "start": 12, 
+                "value": "dinner"
+            }
+        ], 
+        "intent": "feedback", 
+        "text": "i had a bad dinner yesterday"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 28, 
+                "entity": "time", 
+                "start": 19, 
+                "value": "yesterday"
+            }
+        ], 
+        "intent": "feedback", 
+        "text": "i had a bad dinner yesterday"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 18, 
+                "entity": "meal", 
+                "start": 12, 
+                "value": "dinner"
+            }
+        ], 
+        "intent": "feedback", 
+        "text": "i had a bad dinner last week"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 28, 
+                "entity": "time", 
+                "start": 19, 
+                "value": "last week"
+            }
+        ], 
+        "intent": "feedback", 
+        "text": "i had a bad dinner last week"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 35, 
+                "entity": "time", 
+                "start": 28, 
+                "value": "morning"
+            }
+        ], 
+        "intent": "booking", 
+        "text": "show me all flights for the morning"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 35, 
+                "entity": "time", 
+                "start": 28, 
+                "value": "evening"
+            }
+        ], 
+        "intent": "booking", 
+        "text": "show me all flights for the evening"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 37, 
+                "entity": "time", 
+                "start": 28, 
+                "value": "afternoon"
+            }
+        ], 
+        "intent": "booking", 
+        "text": "show me all flights for the afternoon"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 32, 
+                "entity": "time", 
+                "start": 23, 
+                "value": "last week"
+            }
+        ], 
+        "intent": "booking", 
+        "text": "show me my history for last week"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 33, 
+                "entity": "time", 
+                "start": 23, 
+                "value": "last month"
+            }
+        ], 
+        "intent": "booking", 
+        "text": "show me my history for last month"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 36, 
+                "entity": "time", 
+                "start": 23, 
+                "value": "previous week"
+            }
+        ], 
+        "intent": "booking", 
+        "text": "show me my history for previous week"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 28, 
+                "entity": "meal", 
+                "start": 19, 
+                "value": "breakfast"
+            }
+        ], 
+        "intent": "booking", 
+        "text": "will i be provided breakfast on the flight ?"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 24, 
+                "entity": "meal", 
+                "start": 19, 
+                "value": "lunch"
+            }
+        ], 
+        "intent": "booking", 
+        "text": "will i be provided lunch on the flight ?"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 25, 
+                "entity": "meal", 
+                "start": 19, 
+                "value": "dinner"
+            }
+        ], 
+        "intent": "booking", 
+        "text": "will i be provided dinner on the flight ?"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 12, 
+                "entity": "time", 
+                "start": 5, 
+                "value": "morning"
+            }
+        ], 
+        "intent": "greeting", 
+        "text": "good morning"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 12, 
+                "entity": "time", 
+                "start": 5, 
+                "value": "evening"
+            }
+        ], 
+        "intent": "greeting", 
+        "text": "good evening"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 14, 
+                "entity": "time", 
+                "start": 5, 
+                "value": "afternoon"
+            }
+        ], 
+        "intent": "greeting", 
+        "text": "good afternoon"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 15, 
+                "entity": "time", 
+                "start": 12, 
+                "value": "day"
+            }
+        ], 
+        "intent": "greeting", 
+        "text": "have a good day"
+    }, 
+    {
+        "entities": [
+            {
+                "end": 17, 
+                "entity": "time", 
+                "start": 12, 
+                "value": "night"
+            }
+        ], 
+        "intent": "greeting", 
+        "text": "have a good night"
+    }
+]
