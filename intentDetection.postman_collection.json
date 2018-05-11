@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "ca6b2d73-42be-427e-a666-9fb3770a139f",
+		"name": "intentDetection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:9000/predict",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"input\": \"i had a really bad flight\",\n\t\"entity\": \"time\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:9000/predict",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"predict"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
